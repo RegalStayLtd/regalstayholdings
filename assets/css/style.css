@@ -290,7 +290,9 @@ img.left {
   background-size: auto;
   background-repeat: repeat;
 }
-
+.pb-120 {
+  padding-bottom: 120px;
+}
 .section-padding {
   padding: 120px 0;
 }
@@ -3513,7 +3515,7 @@ img.left {
 .tp-feature-five-shape-color {
   height: 100%;
   width: 100%;
-  background-color: #000;
+  background-color: #d4af37;
   border-radius: 50%;
   position: absolute;
   top: 0%;
@@ -3527,7 +3529,7 @@ img.left {
 }
 
 .tp-feature-five-shape-color-3 {
-  background: #000;
+  background: #d4af37;
 }
 
 .tp-feature-five-shape-color-4 {
@@ -6021,8 +6023,8 @@ ul.list-info-item li:first-child {
 }
 
 .butn-flora:hover {
-  background-color: #3b3f82;
-  border-color: #3b3f82;
+  background-color: #d4af37;
+  border-color: #d4af37;
 }
 
 .butn-flora:hover span {
@@ -6040,8 +6042,8 @@ ul.list-info-item li:first-child {
 }
 
 .butn-blurblack {
-  background-color: #3b3f82;
-  border: 1px solid #3b3f82;
+  background-color: #d4af37;
+  border: 1px solid #d4af37;
 }
 
 .butn-blurblack span {
@@ -6050,21 +6052,21 @@ ul.list-info-item li:first-child {
 
 .butn-blurblack:hover {
   background-color: transparent;
-  border-color: #3b3f82;
+  border-color: #d4af37;
 }
 
 .butn-blurblack:hover span {
-  color: #3b3f82;
+  color: #d4af37;
 }
 
 .butn-blurblack.butn-bord {
-  border-color: #3b3f82;
+  border-color: #d4af37;
   background-color: transparent;
 }
 
 .butn-blurblack.butn-bord:hover {
-  background-color: #3b3f82;
-  border-color: #3b3f82;
+  background-color: #d4af37;
+  border-color: #d4af37;
 }
 
 .butn-blurblack.butn-bord:hover span {
@@ -8052,7 +8054,7 @@ header.simple-header .path a:after {
   content: "";
   width: 100px;
   height: 100px;
-  border: 20px solid #3b3f82;
+  border: 20px solid #d4af37;
   border-radius: 50%;
   position: absolute;
   bottom: -20px;
@@ -8583,7 +8585,7 @@ header.simple-header .path a:after {
 }
 
 .services .item-box:hover .icon-bord-shad i {
-  background: #3b3f82;
+  background: #d4af37;
 }
 
 .services .icon-bord-shad {
@@ -9849,7 +9851,7 @@ header.simple-header .path a:after {
   right: 0;
   bottom: 0;
   width: 50%;
-  background: #3b3f82;
+  background: #d4af37;
   z-index: 3;
 }
 
@@ -11253,7 +11255,7 @@ header.simple-header .path a:after {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  background: #3b3f82;
+  background: #d4af37;
   border-radius: 50%;
   position: absolute;
   bottom: 0;
@@ -12848,8 +12850,8 @@ header.simple-header .path a:after {
   min-width: 180px;
   text-align: center;
   border-radius: 30px;
-  border: 1px solid #3b3f82;
-  background: #3b3f82;
+  border: 1px solid #d4af37;
+  background: #d4af37;
   color: #fff;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -12858,7 +12860,7 @@ header.simple-header .path a:after {
 
 .contact-crv form button:hover {
   background: transparent;
-  color: #3b3f82;
+  color: #d4af37;
 }
 
 .contact-crv .google-maps {
@@ -13277,7 +13279,7 @@ body.startup .main-color {
 }
 
 body.cr-agency {
-  color: #3b3f82;
+  color: #d4af37;
 }
 
 body.cr-agency p {
@@ -13310,7 +13312,7 @@ body.cr-agency .states ul .sd-color {
 
 body.cr-agency .states ul .sd-color span,
 body.cr-agency .states ul .sd-color h5 {
-  color: #3b3f82;
+  color: #d4af37;
 }
 
 body.sass1 {
