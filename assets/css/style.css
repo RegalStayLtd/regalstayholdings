@@ -4519,7 +4519,7 @@ a.icon-btn {
   padding-bottom: 20px;
 }
 
-.tp-btn {
+/* .tp-btn {
   display: inline-block;
   background-color: #d4af37;
   color: var(--tp-common-white);
@@ -4535,7 +4535,7 @@ a.icon-btn {
   overflow: hidden;
   z-index: 1;
   transition: 0.5s;
-}
+} */
 .tp-btn-hover {
   position: relative;
   z-index: 2;
