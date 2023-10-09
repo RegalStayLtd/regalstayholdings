@@ -7421,6 +7421,7 @@ header.simple-header .path a:after {
 .home-bus1 .background {
   min-height: 100vh;
   padding: 80px 0;
+  background-size: cover;
 }
 
 .pg-header-bus {
@@ -13898,16 +13899,8 @@ body.index-main .bg-gray {
     padding-bottom: 30px !important;
   }
 }
-@media screen and (max-width: 767px),
-  screen and (-webkit-min-device-pixel-ratio: 0) {
-  .bg-img {
-    background-position: center !important;
-  }
-}
+
 @media screen and (max-width: 767px) {
-  .bg-img {
-    background-position: center !important;
-  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
