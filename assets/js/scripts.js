@@ -383,10 +383,10 @@ $(function () {
 
   /* --------- parallaxie --------- */
 
-  $(".parallaxie").parallaxie({
-    speed: 0.5,
-    // size: "cover",
-  });
+  // $(".parallaxie").parallaxie({
+  //   speed: 0.5,
+  //   size: "cover",
+  // });
 
   /* --------- magnificPopup --------- */
 
