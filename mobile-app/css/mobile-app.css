@@ -537,7 +537,7 @@ footer .sub-footer .links li {
     min-height: 60px;
   }
   .navbar .navbar-collapse {
-    max-height: 340px;
+    max-height: 600px;
     overflow: auto;
     background: #000;
     text-align: center;

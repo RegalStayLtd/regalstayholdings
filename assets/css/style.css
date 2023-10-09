@@ -2721,9 +2721,163 @@ img.left {
   -webkit-box-shadow: 0px 10px 30px -5px rgba(182, 244, 146, 0.5);
   box-shadow: 0px 10px 30px -5px rgba(182, 244, 146, 0.5);
 }
+.section-services {
+  background-color: #000;
+  color: #fff;
+  padding-top: 115px;
+  padding-bottom: 120px;
+}
 
+.section-services .header-section {
+  margin-bottom: 34px;
+}
+
+.section-services .header-section .title {
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.section-services .header-section .title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #d4af37;
+  border-radius: 3px;
+}
+
+.section-services .header-section .title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(30px);
+  width: 10px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 3px;
+}
+
+.section-services .header-section .description {
+  font-size: 14px;
+  color: #000;
+}
+
+.section-services .single-service {
+  position: relative;
+  margin-top: 30px;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+.section-services .single-service .content {
+  position: relative;
+  z-index: 20;
+}
+
+.section-services .single-service .circle-before {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  transform: translate(40%, -40%);
+  width: 150px;
+  height: 150px;
+  background-color: #d4af37;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 10;
+  transition: all 0.6s;
+}
+
+.section-services .single-service:hover .circle-before {
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border: 0;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.section-services .single-service .icon {
+  display: inline-block;
+  margin-bottom: 26px;
+  width: 70px;
+  height: 70px;
+  background-color: #d4af37;
+  border-radius: 5px;
+  line-height: 70px;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  transition: all 0.3s;
+}
+
+.section-services .single-service:hover .icon {
+  background-color: #000;
+  color: #d4af37;
+}
+
+.section-services .single-service .title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+
+.section-services .single-service:hover .title {
+  color: #000;
+}
+
+.section-services .single-service .description {
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: color 0.3s;
+  color: #fff;
+}
+
+.section-services .single-service:hover .description {
+  color: #000;
+}
+
+.section-services .single-service a {
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.section-services .single-service:hover a {
+  color: #000;
+}
+
+.section-services .single-service a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #d4af37;
+  transition: background-color 0.3s;
+}
+
+.section-services .single-service:hover a:after {
+  background-color: #000;
+}
 .gr-green-text {
-  background-image: -webkit-gradient(
+  color: #d4af37;
+  /* background-image: -webkit-gradient(
     linear,
     left top,
     right top,
@@ -2735,7 +2889,7 @@ img.left {
   background-image: -o-linear-gradient(left, #90ce85, #00dead, #338b93);
   background-image: linear-gradient(to right, #90ce85, #00dead, #338b93);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .gr-green-bord {
@@ -13432,7 +13586,7 @@ body.index-main .bg-gray {
     min-height: 60px;
   }
   .navbar .navbar-collapse {
-    max-height: 340px;
+    max-height: 500px;
     overflow: auto;
     background: #000;
     text-align: center;
