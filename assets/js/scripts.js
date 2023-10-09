@@ -387,7 +387,7 @@ $(function () {
   //   speed: 0.5,
   //   size: "cover",
   // });
-
+  //
   /* --------- magnificPopup --------- */
 
   $(".popup-img , .gallery").magnificPopup({
