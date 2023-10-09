@@ -13900,6 +13900,9 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 767px) {
+  .bg-img {
+    background-position: center !important;
+  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
