@@ -385,7 +385,7 @@ $(function () {
 
   $(".parallaxie").parallaxie({
     speed: 0.5,
-    size: "cover",
+    // size: "cover",
   });
 
   /* --------- magnificPopup --------- */
