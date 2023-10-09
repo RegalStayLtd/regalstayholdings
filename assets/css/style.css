@@ -13898,7 +13898,12 @@ body.index-main .bg-gray {
     padding-bottom: 30px !important;
   }
 }
-
+@media screen and (max-width: 767px),
+  screen and (-webkit-min-device-pixel-ratio: 0) {
+  .bg-img {
+    background-position: center !important;
+  }
+}
 @media screen and (max-width: 767px) {
   .bg-img {
     background-position: center !important;
