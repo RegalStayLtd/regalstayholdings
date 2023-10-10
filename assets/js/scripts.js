@@ -381,6 +381,55 @@ $(function () {
 
   $("a.vid").YouTubePopUp();
 
+  // 36. Brand-4
+  $(".tpbrand-active-5").slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    pauseOnHover: false,
+    autoplay: true,
+    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
   /* --------- parallaxie --------- */
 
   // $(".parallaxie").parallaxie({
