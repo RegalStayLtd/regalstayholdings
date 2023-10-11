@@ -108,9 +108,10 @@ p {
   left: 0;
   width: 100%;
   height: 3px;
-  background-image: -webkit-linear-gradient(140deg, #ef7355, #ffbb86, #8781c6);
+  background: #d4af37;
+  /* background-image: -webkit-linear-gradient(140deg, #ef7355, #ffbb86, #8781c6);
   background-image: -o-linear-gradient(140deg, #ef7355, #ffbb86, #8781c6);
-  background-image: linear-gradient(310deg, #ef7355, #ffbb86, #8781c6);
+  background-image: linear-gradient(310deg, #ef7355, #ffbb86, #8781c6); */
   border-radius: 0 0 5px 5px;
   opacity: 0;
 }
