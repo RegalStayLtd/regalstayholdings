@@ -40,6 +40,52 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="arch/css/arch-style.css" />
     <style>
+      .preloaderBg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        background: #000; /* Add background with some opacity */
+        width: 100%;
+        height: 100%;
+        transition: opacity 2s; /* Add a transition for a smooth fade-out effect */
+        opacity: 1; /* Initially fully visible */
+      }
+
+      .preloaders {
+        background: url(./assets/img/logo.png) no-repeat center;
+        background-size: 600px;
+        width: 700px;
+        height: 700px;
+        opacity: 1; /* Initially fully visible */
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Media query for smaller screens */
+      @media (max-width: 768px) {
+        .preloaders {
+          background-size: 300px; /* Adjust the size as needed */
+          width: 400px; /* Adjust the size as needed */
+          height: 400px; /* Adjust the size as needed */
+        }
+      }
+
+      /* CSS rule to hide the preloader */
+      .preloaderBg.hidden {
+        opacity: 0; /* Fully transparent to hide */
+        pointer-events: none; /* Disable interaction when hidden */
+      }
       @media (max-width: 992px) {
         .navbar-brand .logo img {
           width: 120px; /* Set the logo width for mobile, tablet, and larger screens */
@@ -53,6 +99,9 @@
   </head>
 
   <body class="index-main">
+    <div class="preloaderBg" id="preloaders">
+      <div class="preloaders"></div>
+    </div>
     <!-- ==================== Start progress-scroll-button ==================== -->
 
     <!-- ==================== End progress-scroll-button ==================== -->
@@ -920,6 +969,12 @@
     </main>
 
     <!-- jQuery -->
+    <script>
+      setTimeout(function () {
+        var preloaderBg = document.getElementById("preloaders");
+        preloaderBg.classList.add("hidden"); // Add the "hidden" class to apply the fade-out effect
+      }, 2000);
+    </script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
     <script src="assets/js/slick.js"></script>
