@@ -522,13 +522,13 @@
         let body =
           "Name: " +
           name +
-          "<br/> Email: " +
+          "<br/><br/> Email: " +
           email +
-          "<br/> Phone Number: " +
+          "<br/><br/> Phone Number: " +
           phone +
-          "<br/> Subject: " +
+          "<br/><br/> Subject: " +
           subject +
-          "<br/> Message: " +
+          "<br/><br/> Message: " +
           messages;
 
         Email.send({
@@ -552,6 +552,7 @@
       function closeModal() {
         const modal = document.getElementById("thankYouModal");
         modal.style.display = "none";
+        window.location.href = "index.html";
       }
     </script>
     <!-- jQuery -->
