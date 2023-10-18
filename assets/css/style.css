@@ -4430,13 +4430,13 @@ a.icon-btn {
   line-height: 28px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px),
+/* @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px),
   only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-about__section-box p {
     display: none;
   }
-}
+} */
 
 .tp-about__list {
   padding-bottom: 45px;
