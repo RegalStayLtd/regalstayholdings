@@ -3138,6 +3138,7 @@ img.left {
 .contact-content p {
   font-family: var(--tp-ff-jakarta);
   margin-bottom: 32px;
+  font-size: 18px;
 }
 
 @media (max-width: 767px) {
@@ -3243,7 +3244,7 @@ img.left {
 
 .contact-social a {
   display: inline-block;
-  color: #fff;
+  color: #d4af37;
   padding: 8px 26.5px;
   position: relative;
 }
@@ -3352,7 +3353,7 @@ img.left {
   width: 100%;
   background: #000;
   color: #fff;
-  border: 1px solid #e7e8eb;
+  border: 1px solid #d4af37;
   box-shadow: 0px 1px 1px rgba(3, 8, 31, 0.08);
   border-radius: 6px;
   height: 54px;
@@ -3371,7 +3372,7 @@ img.left {
 
 .contact-form-input input:focus,
 .contact-form-input textarea:focus {
-  border-color: #fff;
+  border-color: #d4af37;
 }
 
 .contact-form-input input:focus::placeholder,
@@ -3594,6 +3595,236 @@ img.left {
   width: 100%;
 }
 
+.process-style-one-area {
+  position: relative;
+  z-index: 1;
+}
+
+/* .process-style-one-area::after {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 185px;
+  border-bottom: 1px solid #e7e7e7;
+  content: "";
+  z-index: -1;
+} */
+
+.process-style-one .icon {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 165px;
+  color: #000;
+  border-radius: 50%;
+  font-size: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+.process-style-one .icon i {
+  transition: all 0.15s ease-in-out;
+}
+
+.process-style-one .icon::before {
+  background: #d4af37;
+  transition: all 0.35s ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.process-style-one:nth-child(2n) .icon::before {
+  opacity: 0;
+}
+
+.process-style-one:nth-child(2n) .icon {
+  color: #d4af37;
+  border: 2px solid #d4af37;
+}
+
+.process-style-one:nth-child(2n):hover .icon {
+  color: #d4af37;
+}
+
+.process-style-one h4 {
+  margin: 0;
+  font-weight: 800;
+}
+
+.process-style-one span {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 40px;
+  color: transparent;
+  -webkit-text-stroke: 1px #d4af37;
+  background: #000;
+  padding: 0 15px;
+  position: relative;
+}
+
+.process-style-one .icon::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: #000;
+  z-index: -1;
+  border-radius: 50%;
+  animation: spinnerRotate 10s linear infinite;
+  margin-left: -8px;
+  margin-top: -8px;
+  border: 2px solid #d4af37;
+  transition: all 0.35s ease-in-out;
+}
+
+.process-style-one:nth-child(2n) .icon::after {
+  opacity: 0;
+}
+
+.process-style-one:nth-child(2n) .icon:hover::after {
+  opacity: 1;
+}
+
+@-webkit-keyframes spinnerRotate {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(73px);
+    transform: rotate(0deg) translateX(73px);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(73px);
+    transform: rotate(360deg) translateX(73px);
+  }
+}
+
+@keyframes spinnerRotate {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(73px);
+    transform: rotate(0deg) translateX(73px);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(73px);
+    transform: rotate(360deg) translateX(73px);
+  }
+}
+
+@-webkit-keyframes spinnerRotateone {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(73px);
+    transform: rotate(0deg) translateY(73px);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) translateY(73px);
+    transform: rotate(360deg) translateY(73px);
+  }
+}
+
+@keyframes spinnerRotateone {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(73px);
+    transform: rotate(0deg) translateY(73px);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) translateY(73px);
+    transform: rotate(360deg) translateY(73px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .process-style-one span {
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .process-style-one {
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+  }
+  .process-style-one .icon {
+    margin-bottom: 15px;
+  }
+  .process-style-one:first-child {
+    margin-top: 0;
+  }
+  .process-style-one-area::after {
+    display: none;
+  }
+  .process-style-one::after {
+    position: absolute;
+    left: 50%;
+    top: -68px;
+    content: "";
+    height: 40px;
+    width: 1px;
+    border-left: 2px dashed;
+  }
+  .process-style-one:first-child::after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* Process */
+  .process-style-one span {
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .process-style-one {
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+  }
+  .process-style-one .icon {
+    margin-bottom: 15px;
+  }
+  .process-style-one:first-child {
+    margin-top: 0;
+  }
+  .process-style-one-area::after {
+    display: none;
+  }
+  .process-style-one::after {
+    position: absolute;
+    left: 50%;
+    top: -68px;
+    content: "";
+    height: 40px;
+    width: 1px;
+    border-left: 2px dashed;
+  }
+  .process-style-one:first-child::after {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Process */
+  .process-style-one span {
+    margin-top: 0;
+  }
+  .process-style-one {
+    margin-top: 80px;
+  }
+  .process-style-one:first-child,
+  .process-style-one:nth-child(2) {
+    margin-top: 0;
+  }
+  .process-style-one-area::after {
+    display: none;
+  }
+}
 .tp-feature-five-section-box p {
   font-weight: 400;
   font-size: 17px;
@@ -14762,14 +14993,14 @@ body.index-main .bg-gray {
 }
 
 .footer-widget-social2 a i {
-  height: 36px;
-  width: 36px;
-  line-height: 35px;
+  height: 46px;
+  width: 46px;
+  line-height: 45px;
   text-align: center;
   /* border: 1px solid #fff; */
   border-radius: 100px;
   color: #d4af37;
-  font-size: 13px;
+  font-size: 23px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
